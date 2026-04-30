@@ -1,0 +1,105 @@
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  background: url("background.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.overlay {
+  top: 100px;
+  left: 0;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  background-color: rgba(77, 75, 75, 0.4); 
+  background-attachment: fixed;
+
+  
+  
+}
+.content{
+padding-left: 600px;
+  text-align: center
+}
+
+
+.content :not(.navbar) {
+  color: white;
+  max-width: 600px;
+}
+
+.content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.navbar {
+    position: fixed;
+ 
+  height: 60px;
+
+  z-index: 999;
+  margin-left: auto;
+  width: fit-content;
+  background-color: rgb(7, 116, 72);
+  border-radius: 0  0  10px  10px;
+  width: 100%;
+  display: flex; align-items: center; gap :1000px;
+  font-size: 20px;
+  width: 100%;
+  height: 50%;
+  
+  font-family: Calibri; padding-right: 15px;padding-left: 15px;
+}
+.logo{
+
+  font-size: 35px; font-weight: 600; color: white;
+  margin-left: 50px;
+}
+
+.navbar li{
+  list-style: none; display: inline-block;
+  color: white; font-size: 18px; font-weight: bold; margin-right: 100px;
+  font-size: 20px;
+
+}
+
+
+
+.introtext ,  {
+  background-color: rgba(79, 74, 74, 0.38);
+  border-radius: 10px;
+  padding: 15px;
+} 
+
+.maps {
+   src="https://www.google.com/maps/d/u/0/embed?mid=1pF3hKy7xWIvZpwMbsq0Lvuo2D4EAjYw&ehbc=2E312F"
+  
+  
+    border: 40px solid #4CAF50;        /* Bordure verte */
+    border-radius: 10px;              /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Ombre douce */
+  
+  allowfullscreen
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+}
+
+
+
+
+
+
